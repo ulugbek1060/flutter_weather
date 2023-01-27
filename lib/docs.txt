@@ -1,0 +1,23 @@
+https://geocoding-api.open-meteo.com/v1/search?name=$city&count=1 to get a location for a given city name
+
+{
+"generationtime_ms": 0.105023384
+}
+
+https://api.open-meteo.com/v1/forecast?latitude=$latitude&longitude=$longitude&current_weather=true to get the weather for a given location
+{
+"latitude": 32.4375,
+"longitude": 31.3125,
+"generationtime_ms": 0.8909702301025391,
+"utc_offset_seconds": 0,
+"timezone": "GMT",
+"timezone_abbreviation": "GMT",
+"elevation": 0.0,
+"current_weather": {
+"temperature": 18.5,
+"windspeed": 13.7,
+"winddirection": 18.0,
+"weathercode": 2,
+"time": "2023-01-24T19:00"
+}
+}
